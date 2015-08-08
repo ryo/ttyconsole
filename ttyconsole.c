@@ -38,7 +38,7 @@
 static void
 usage(void)
 {
-	fprintf(stderr, "usage: ttyconsole [-q]\n");
+	fprintf(stderr, "usage: ttyconsole [-sd]\n");
 	fprintf(stderr, "	-s	silent discard\n");
 	fprintf(stderr, "	-d	daemon mode\n");
 	exit(1);
